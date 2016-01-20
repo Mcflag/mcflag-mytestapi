@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light"></style>
+
+    <style name="Theme.Styled" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background</item>
+        <item name="android:actionBarTabStyle">@style/Widget.Styled.ActionBar.TabView</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:actionDropDownStyle">@style/Widget.Styled.Spinner.DropDown.ActionBar</item>
+        <item name="android:dropDownListViewStyle">@style/Widget.Styled.ListView.DropDown</item>
+        <item name="android:popupMenuStyle">@style/Widget.Styled.PopupMenu</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@drawable/ab_solid_styled</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_styled</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_styled</item>
+        <item name="android:progressBarStyle">@style/Widget.Styled.ProgressBar.Horizontal</item>
+    </style>
+
+</resources>

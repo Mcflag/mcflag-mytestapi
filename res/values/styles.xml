@@ -1,0 +1,155 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="Widget" />
+
+    <style name="Widget.SampleMessage">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+
+    <style name="Widget.SampleMessageTile">
+        <item name="android:background">@drawable/tile</item>
+        <item name="android:shadowColor">#7F000000</item>
+        <item name="android:shadowDy">-3.5</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="Widget.SampleOutput">
+        <item name="android:padding">@dimen/margin_medium</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+
+    <style name="Log" parent="Widget.SampleOutput">
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="MyAppTheme" parent="AppTheme">
+        <item name="android:textViewStyle">@style/MyTextViewStyle</item>
+        <item name="android:actionBarStyle">@style/MyActionBarStyle</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+    </style>
+
+    <style name="MyActionBarStyle" parent="android:Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">#5E2D79</item>
+        <item name="android:backgroundSplit">#5E2D79</item>
+    </style>
+
+    <style name="MyTextViewStyle" parent="android:TextAppearance.Holo.Widget.TextView">
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingRight">@dimen/margin_medium</item>
+        <item name="android:paddingLeft">@dimen/margin_medium</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="Theme.Styled" parent="@style/Theme.AppCompat.Light">
+        <item name="actionBarItemBackground">@drawable/selectable_background</item>
+        <item name="actionBarTabStyle">@style/Widget.Styled.ActionBar.TabView</item>
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="actionDropDownStyle">@style/Widget.Styled.Spinner.DropDown.ActionBar</item>
+        <item name="dropDownListViewStyle">@style/Widget.Styled.ListView.DropDown</item>
+        <item name="popupMenuStyle">@style/Widget.Styled.PopupMenu</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="background">@drawable/ab_solid_styled</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_styled</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_styled</item>
+        <item name="progressBarStyle">@style/Widget.Styled.ProgressBar.Horizontal</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar.TabView" parent="@style/Widget.AppCompat.Light.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab</item>
+    </style>
+
+    <style name="Widget.Styled.Spinner.DropDown.ActionBar" parent="@style/Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_styled</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background</item>
+    </style>
+
+    <style name="Widget.Styled.ProgressBar.Horizontal" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal</item>
+    </style>
+
+    <style name="Widget.Styled.PopupMenu" parent="@style/Widget.AppCompat.Light.PopupMenu">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_styled</item>
+    </style>
+
+    <style name="Widget.Styled.ListView.DropDown" parent="@style/Widget.AppCompat.Light.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background</item>
+    </style>
+
+    <style name="Widget.DescriptionBar">
+        <item name="android:background">#fb3</item>
+        <item name="android:paddingTop">@dimen/margin_medium</item>
+        <item name="android:paddingBottom">@dimen/margin_medium</item>
+        <item name="android:paddingLeft">@dimen/page_margin</item>
+        <item name="android:paddingRight">@dimen/page_margin</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+
+    <style name="NotificationContent" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">?android:attr/textColorPrimaryInverse</item>
+    </style>
+
+    <style name="AppThemeDark" parent="android:Theme" />
+
+    <style name="AppThemeDark.FullScreen" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen" />
+
+    <style name="PhotoGridLayout">
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:listSelector">@drawable/photogrid_list_selector</item>
+    </style>
+
+    <style name="Widget.SampleContentContainer">
+        <item name="android:paddingTop">@dimen/vertical_page_margin</item>
+        <item name="android:paddingBottom">@dimen/vertical_page_margin</item>
+        <item name="android:paddingLeft">@dimen/horizontal_page_margin</item>
+        <item name="android:paddingRight">@dimen/horizontal_page_margin</item>
+    </style>
+
+    <style name="Widget.SampleDashboard.Grid" parent="Widget">
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:columnWidth">200dp</item>
+        <item name="android:numColumns">auto_fit</item>
+        <item name="android:drawSelectorOnTop">true</item>
+        <item name="android:horizontalSpacing">0dp</item>
+        <item name="android:verticalSpacing">0dp</item>
+    </style>
+
+    <style name="Widget.SampleDashboard.Card" parent="Widget">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/card_margin</item>
+        <item name="cardCornerRadius">4dp</item>
+        <item name="cardElevation">5dp</item>
+        <item name="contentPadding">@dimen/card_padding</item>
+    </style>
+
+    <style name="Widget.SampleDashboard.Item" parent="Widget"></style>
+
+    <style name="Widget.SampleDashboard.Item.Title" parent="Widget">
+        <item name="android:layout_marginBottom">@dimen/margin_tiny</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">@color/teal</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Widget.SampleDashboard.Item.Description" parent="Widget">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/black_87</item>
+    </style>
+
+    <style name="LinkText">
+        <item name="android:paddingTop">9dp</item>
+        <item name="android:paddingBottom">9dp</item>
+    </style>
+
+</resources>

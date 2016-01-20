@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cc.chen.mytestapi"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:glEsVersion="0x00020000" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:uiOptions="splitActionBarWhenNarrow" >
+        <provider
+            android:name="cc.chen.mytestapi.provider.MyCloudProvider"
+            android:authorities="cc.chen.mytestapi.documents"
+            android:exported="true"
+            android:grantUriPermissions="true"
+            android:permission="android.permission.MANAGE_DOCUMENTS" >
+            <intent-filter>
+                <action android:name="android.content.action.DOCUMENTS_PROVIDER" />
+            </intent-filter>
+        </provider>
+
+        <!-- ContentProvider which serves files from this application's asset folder -->
+        <provider
+            android:name="cc.chen.mytestapi.content.AssetProvider"
+            android:authorities="cc.chen.mytestapi.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="cc.chen.mytestapi.test0.CoverFlowActivity" />
+        <activity android:name="cc.chen.mytestapi.test1.AlarmManagerTest" />
+        <activity android:name="cc.chen.mytestapi.test1.BasicGestureDetect" />
+        <activity android:name="cc.chen.mytestapi.test1.BasicMultitouch" />
+        <activity android:name="cc.chen.mytestapi.test1.BasicAndroidKeyStore" />
+        <activity android:name="cc.chen.mytestapi.test1.BasicMediaDecoder" />
+        <activity android:name="cc.chen.mytestapi.test1.MediaEffects" />
+        <activity android:name="cc.chen.mytestapi.test1.MediaRecorderTest" />
+        <activity android:name="cc.chen.mytestapi.test1.StorageClient" />
+        <activity android:name="cc.chen.mytestapi.test1.StorageProvider" />
+        <activity android:name="cc.chen.mytestapi.test1.BasicNetworkingState" />
+        <activity
+            android:name="cc.chen.mytestapi.test1.BluetoothChat"
+            android:configChanges="orientation|keyboardHidden" />
+        <activity
+            android:name="cc.chen.mytestapi.bluetooth.DeviceListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/select_device"
+            android:theme="@android:style/Theme.Holo.Dialog" />
+        <activity android:name="cc.chen.mytestapi.test1.NetworkConnectTest" />
+        <activity
+            android:name="cc.chen.mytestapi.test2.ActionBarCompatBasic"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="cc.chen.mytestapi.test2.ActionBarCompatListPopupMenu"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="cc.chen.mytestapi.test2.ActionBarCompatShareActionProvider"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name="cc.chen.mytestapi.test2.ActionBarCompatStyled"
+            android:theme="@style/Theme.Styled" >
+            <meta-data
+                android:name="android.support.UI_OPTIONS"
+                android:value="splitActionBarWhenNarrow" />
+        </activity>
+        <activity android:name="cc.chen.mytestapi.test2.AdvancedImmersiveModeTest" />
+        <activity android:name="cc.chen.mytestapi.test2.BasicImmersiveModeTest" />
+        <activity android:name="cc.chen.mytestapi.test2.BasicAccessibilityTest" />
+        <activity android:name="cc.chen.mytestapi.test2.BasicNotificationsTest" />
+        <activity android:name="cc.chen.mytestapi.test2.ImmersiveModeTest" />
+        <activity android:name="cc.chen.mytestapi.test2.BasicTransitionTest" />
+        <activity android:name="cc.chen.mytestapi.test2.BorderlessButtonsTest" />
+        <activity android:name="cc.chen.mytestapi.test2.CustomNotificationTest" />
+        <activity android:name="cc.chen.mytestapi.test2.CustomTransitionTest" />
+        <activity android:name="cc.chen.mytestapi.test2.CustomChoiceList" />
+        <activity
+            android:name="cc.chen.mytestapi.test2.ImageGridActivity"
+            android:theme="@style/AppThemeDark" />
+        <activity
+            android:name="cc.chen.mytestapi.displaybitmap.ImageDetailActivity"
+            android:parentActivityName="cc.chen.mytestapi.test2.ImageGridActivity"
+            android:theme="@style/AppThemeDark.FullScreen" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="cc.chen.mytestapi.test2.ImageGridActivity" />
+        </activity>
+        <activity android:name="cc.chen.mytestapi.test2.DoneBarTest" />
+        <activity
+            android:name="cc.chen.mytestapi.activities.DoneBarActivity"
+            android:parentActivityName="cc.chen.mytestapi.test2.DoneBarTest" />
+        <activity
+            android:name="cc.chen.mytestapi.activities.DoneButtonActivity"
+            android:parentActivityName="cc.chen.mytestapi.test2.DoneBarTest" />
+        <activity android:name="cc.chen.mytestapi.test2.DrawableTintingTest" />
+        <activity android:name="cc.chen.mytestapi.test2.HorizontalPaging" />
+        <activity android:name="cc.chen.mytestapi.test2.SlidingTabsBasicTest" />
+        <activity android:name="cc.chen.mytestapi.test2.SlidingTabsColorsTest" />
+        <activity android:name="cc.chen.mytestapi.test2.SwipeRefreshLayoutBasicTest" />
+        <activity android:name="cc.chen.mytestapi.test2.SwipeRefreshListFragmentTest" />
+        <activity android:name="cc.chen.mytestapi.test2.SwipeRefreshMultipleViewsTest" />
+        <activity android:name="cc.chen.mytestapi.test2.TextLinkifyTest" />
+        <activity android:name="cc.chen.mytestapi.test2.TextSwitcherTest" />
+        <activity android:name="cc.chen.mytestapi.test2.CardViewTest" />
+        <activity android:name="cc.chen.mytestapi.test2.ClippingBasicTest" />
+        <activity android:name="cc.chen.mytestapi.test2.FloatingActionButtonBasicTest" />
+        <activity android:name="cc.chen.mytestapi.test2.NavigationDrawerTest" />
+        <activity android:name="cc.chen.mytestapi.activities.NavigationDrawerActivity" />
+        <activity android:name="cc.chen.mytestapi.test2.RecyclerViewTest" />
+        <activity android:name="cc.chen.mytestapi.test3.AccelerometerPlayActivity" />
+        <activity android:name="cc.chen.mytestapi.test3.BasicGLSurfaceViewActivity" />
+        <activity android:name="cc.chen.mytestapi.test3.TouchExampleActivity" />
+    </application>
+
+</manifest>

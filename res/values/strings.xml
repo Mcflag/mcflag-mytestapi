@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">MyTestApi</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="repeat_alarm_test_set_alarm">Set Alarm</string>
+    <string name="repeat_alarm_test_disable_alarm">Disable Alarm</string>
+    <string name="repeat_alarm_test_info">Repeat start this activity every 15s.</string>
+    <string name="basic_gesture_detect_intro">
+<![CDATA[
+        
+            
+            Welcome to Basic Gesture Detect!
+            In order to try this sample out, try dragging or tapping this text to see what happens!
+            
+        
+        ]]>
+    </string>
+    <string name="clear_log">Clear Log</string>
+    <string name="basic_multitouch_intro">
+<![CDATA[
+        
+            
+This sample demonstrates the use of MotionEvent properties to keep track of individual touches
+across multiple touch events.
+\n\nTouch the screen with multiple fingers to show that the pointer id
+(also represented by a color) does not change as new touch events are received.
+            
+        
+        ]]>
+    </string>
+    <string name="basic_android_key_store_intro">
+<![CDATA[
+        
+
+Welcome to the <b>Basic Android Key Store</b> sample!\n\n
+This sample demonstrates how to use the Android Key Store to safely create and store
+encryption keys that only your application can access.  You can also sign data
+using those keys.\n\n
+To create a new KeyPair, click \"Create\".\n\n
+To sign some data using a KeyPair, click \"Sign\".\n\n
+To verify the data using the signature provided, click \"Verify\".\n\n
+
+        
+        ]]>
+    </string>
+    <string name="str_create_keys">Create</string>
+    <string name="str_sign_data">Sign</string>
+    <string name="str_verify_data">Verify</string>
+    <string name="basic_media_decoder_intro">
+<![CDATA[
+        
+            
+             This activity uses a TextureView to render the frames of a video decoded using the
+             MediaCodec API.
+            
+        
+        ]]>
+    </string>
+    <string name="app_video_attrib">&#169; copyright 2008, Blender Foundation / www.bigbuckbunny.org</string>
+    <string name="media_effects_intro">
+<![CDATA[
+        
+            
+            This sample shows how to use the Media Effects APIs that were introduced in Android 4.0.
+            These APIs let you apply effects to image frames represented as OpenGL ES 2.0 textures.
+            Image frames can be images loaded from disk, frames from the device\'s camera, or other
+            video streams.
+            
+        
+        ]]>
+    </string>
+    <string name="sample_show_log">Show Log</string>
+    <string name="sample_hide_log">Hide Log</string>
+    <string name="none">None</string>
+    <string name="autofix">Autofix</string>
+    <string name="bw">Min/Max Color Intensity</string>
+    <string name="brightness">Brightness</string>
+    <string name="contrast">Contrast</string>
+    <string name="crossprocess">Cross Process</string>
+    <string name="documentary">Documentary</string>
+    <string name="duotone">Duo Tone</string>
+    <string name="filllight">Fill Light</string>
+    <string name="fisheye">Fish Eye</string>
+    <string name="flipvert">Flip Vertical</string>
+    <string name="fliphor">Flip Horizontal</string>
+    <string name="grain">Grain</string>
+    <string name="grayscale">Grayscale</string>
+    <string name="lomoish">Lomoish</string>
+    <string name="negative">Negative</string>
+    <string name="posterize">Posterize</string>
+    <string name="rotate">Rotate</string>
+    <string name="saturate">Saturate</string>
+    <string name="sepia">Sepia</string>
+    <string name="sharpen">Sharpen</string>
+    <string name="temperature">Temperature</string>
+    <string name="tint">Tint</string>
+    <string name="vignette">Vignette</string>
+    <string name="media_recorder_intro">
+<![CDATA[
+        
+
+This sample uses the camera/camcorder as the A/V source for the MediaRecorder API.
+A TextureView is used as the camera preview which limits the code to API 14+. This
+can be easily replaced with a SurfaceView to run on older devices.
+
+        
+        ]]>
+    </string>
+    <string name="btnCapture">capture</string>
+    <string name="storage_client_intro">
+<![CDATA[
+        
+            
+            Using the OPEN_DOCUMENT intent, a client app can access a list of Document Providers
+            on the device, and choose a file from any of them.
+            \n\nTo demonstrate this, click the button below to open up the Storage Access Framework
+            interface, and choose an image on your device.  It will be displayed in this app.
+            
+        
+        ]]>
+    </string>
+    <string name="storage_client_btn">Show Me The Image</string>
+    <string name="storage_provider_intro">
+<![CDATA[
+        
+            
+            \nA simple implementation of a documents provider using the storage access framework in
+            Android 4.4.
+            
+        
+        ]]>
+    </string>
+    <string name="storage_provider_menu_item">Log in</string>
+    <string name="log_in">Log in</string>
+    <string name="log_out">Log out</string>
+    <string name="logged_in_info">You are currently logged in, which means the documents in MyCloud are visible to other applications.</string>
+    <string name="logged_out_info">You are currently logged out, so MyCloud is not visible as a document provider.</string>
+    <string name="root_summary">cloudy with a chance of &#8230;</string>
+    <string name="key_logged_in">logged_in</string>
+    <string name="basic_networking_intro">
+<![CDATA[
+        
+            
+            This sample demonstrates how to use the ConnectivityManager to determine if you have
+            a network connection, and if so, what type of connection it is.
+            \n\nA "NetworkInfo" object is retrieved from the ConnectivityManager, which contains information
+            on the active connection, and then the connection type is printed to an on-screen console.
+            
+        
+        ]]>
+    </string>
+    <string name="test_text">Test</string>
+    <string name="clear_text">Clear</string>
+    <string name="wifi_connection">The active connection is wifi.</string>
+    <string name="mobile_connection">The active connection is mobile.</string>
+    <string name="no_wifi_or_mobile">No wireless or mobile connection.</string>
+    <string name="bluetooth_chat_intro">
+<![CDATA[
+        
+            
+            This application allows two Android devices to carry out two-way text chat over
+            Bluetooth. It demonstrates all the fundamental Bluetooth API capabilites, such as:
+              (1) Scanning for other Bluetooth devices
+              (2) Querying the local Bluetooth adapter for paired Bluetooth devices
+              (3) Establishing RFCOMM channels/sockets
+              (4) Connecting to a remote device
+              (5) Transfering data over Bluetooth
+            
+        
+        ]]>
+    </string>
+    <!-- BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">connecting&#8230;</string>
+    <string name="title_connected_to">connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">not connected</string>
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">scanning for devices&#8230;</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="network_connect_intro">
+<![CDATA[
+        
+            
+            This sample demonstrates how to connect to the network and fetch raw HTML using
+            HttpURLConnection. AsyncTask is used to perform the fetch on a background thread.
+            
+        
+        ]]>
+    </string>
+    <string name="welcome_message">Welcome to Network Connect!
+        Click FETCH to fetch the first 500 characters of raw HTML from www.baidu.com.</string>
+    <string name="fetch_text">Fetch</string>
+    <string name="connection_error">Connection error.</string>
+    <string name="actionbar_compat_basic_intro">
+<![CDATA[
+        
+            
+            This sample shows you how to use ActionBarCompat to create a basic Activity which
+            displays action items. It covers inflating items from a menu resource, as well as adding
+            an item in code. Items that are not shown as action items on the Action Bar are
+            displayed in the action bar overflow.
+            
+        
+        ]]>
+    </string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_location">Location</string>
+    <string name="menu_settings">Settings</string>
+    <string name="actionbar_compat_listpopup_intro">
+<![CDATA[
+        
+            
+            This sample shows you how to use {@link android.support.v7.widget.PopupMenu PopupMenu}
+            from ActionBarCompat to create a list, with each item having a dropdown menu.
+            
+        
+        ]]>
+    </string>
+    <string name="menu_remove">Remove</string>
+    <string name="content_open_popup">Open Popup Menu</string>
+    <string name="actionbar_compat_shared_provider_intro">
+<![CDATA[
+        
+            
+            This sample shows you how a provide a context-sensitive ShareActionProvider with
+            ActionBarCompat, backwards compatible to API v7.
+            
+        
+        ]]>
+    </string>
+    <string name="menu_share">Share</string>
+    <string name="quote_1">Expectation is the root of all heartache - William Shakespeare</string>
+    <string name="quote_2">The true sign of intelligence is not knowledge but imagination - Albert
+        Einstein</string>
+    <string name="quote_3">As for me, all I know is that I know nothing - Socrates</string>
+    <string name="actionbar_compat_styled_intro">
+<![CDATA[
+        
+            
+            This sample shows you how to use ActionBarCompat with a customized theme. It utilizes a
+            split action bar when running on a device with a narrow display, and show three tabs.
+            
+        
+        ]]>
+    </string>
+    <string name="main_description">This is a basic Activity showing an Action Bar which has been styled.</string>
+    <string name="advanced_immersive_mode_intro">
+<![CDATA[
+        
+            
+            \n\n\n\"Immersive Mode\", added in Android 4.4, improves the \"hide full screen\" and
+            \"hide nav bar\" modes, by letting users swipe the bars in and out.  This sample
+            lets the user experiment with immersive mode by seeing how it interacts
+            with some of the other UI flags related to full-screen apps.
+            
+        
+        ]]>
+    </string>
+    <string name="basic_immersive_mode_intro">
+<![CDATA[
+        
+            
+            \"Immersive Mode\" is a new UI mode which improves \"hide full screen\" and
+            \"hide nav bar\" modes, by letting users swipe the bars in and out.  This sample
+            demonstrates how to enable and disable immersive mode programmatically.
+            
+        
+        ]]>
+    </string>
+    <string name="basic_immersive_mode_menu_item">Toggle Immersive Mode!</string>
+    <string name="basic_accessibility_test_intro">
+<![CDATA[
+        
+            
+            This sample demonstrates how to create an accessible application, using a mix of different widgets demonstrating different ways of adding accessibility markup to a UI.
+            
+        
+        ]]>
+    </string>
+    <string name="composeButtonPressed">(Compose button pressed.)</string>
+    <string name="discardButtonPressed">(Discard button pressed.)</string>
+    <string name="infoButtonPressed">(Info button pressed.)</string>
+    <string name="composeButtonLabel">Compose</string>
+    <string name="discardButtonDescription">Discard Button</string>
+    <string name="infoButtonDescription">Info Button</string>
+    <string name="partlyCloudyDescription">Partly Cloudy</string>
+    <string name="checkboxesLabel">Checkboxes</string>
+    <string name="jetpackCheckboxLabel">Enable Jetpack</string>
+    <string name="hyperspaceCheckboxLabel">Enable Hyperspace Engines</string>
+    <string name="imagesAndTextLabel">Images &amp; Text</string>
+    <string name="temperatureNumber">53 °F</string>
+    <string name="customViewLabel">Custom View</string>
+    <string name="basic_notifications_test_intro">
+<![CDATA[
+        
+            
+            This sample demonstrates how to display events in the system\'s notification bar. The
+            NotificationCompat API is used for compatibility with older devices, running Android
+            2.2 (Froyo) or newer.
+            
+        
+        ]]>
+    </string>
+    <string name="description">        Tap the button below to send a notification.\n\nThe notification\'s icon will immediately
+        appear in the notification bar. Drag the notification bar open to see the full
+        notification. Depending on which version of Android you\'re running, the full
+        notification will display an icon and two or three lines of text.
+        \n\nTap the notification to execute the notification\'s \"action,\" which is an intent
+        that we associate with the notification when it\'s created. This sample notification\'s
+        action is to send a browse intent with the url of the Notification docs on
+        developer.android.com.
+        \n\nThis sample uses the NotificationCompat API for maximum compatibility with versions
+        of Android from Froyo (Android 2.2) to the present. Try it on devices or AVDs that are
+        running different versions of Android. You\'ll see that while the presentation varies
+        slightly, the basic functionality is the same. NotificationCompat automatically takes
+        advantage of the expanded notification format in newer versions of Android, and
+        falls back gracefully to a reduced set of functionality on earlier versions.</string>
+    <string name="immersive_mode_test_intro">
+<![CDATA[
+        
+            
+            One of the features introduced in KitKat is "immersive mode". Immersive mode gives the
+            user the ability to show/hide the status bar and navigation bar with a swipe.  To try,
+            click the "Toggle immersive mode" button, then try swiping the bar in and out!
+            
+        
+        ]]>
+    </string>
+    <string name="immersive_mode_test_action">Toggle immersive mode!</string>
+    <string name="basic_transition_test_intro">
+<![CDATA[
+        
+            
+	    This sample demonstrates the basic use of the transition framework introduced in KitKat.
+	    Select each of the RadioButtons to switch between the Scenes.
+            
+        
+        ]]>
+    </string>
+    <string name="scene">Scene</string>
+    <string name="scene_1">1</string>
+    <string name="scene_2">2</string>
+    <string name="scene_3">3</string>
+    <string name="scene_4">4</string>
+    <string name="hello">Hello!</string>
+    <string name="additional_message">This text fades in and out.</string>
+    <string name="borderless_bottons_test_intro">
+<![CDATA[
+        
+            
+                This sample demonstrates the use of borderless buttons, bottom button bars
+                (OK and Cancel) and dividers to establish visual structure.
+            
+        
+        ]]>
+    </string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="dummy_title">Dummy title</string>
+    <string name="dummy_subtitle">Dummy subtitle</string>
+    <string name="delete_content_description">Delete</string>
+    <string name="touched_primary_message">Touched primary list item target.</string>
+    <string name="touched_secondary_message">Touched secondary list item target (delete).</string>
+    <string name="docs_link_title">Design docs: borderless buttons</string>
+    <string name="custom_notification_test_intro">
+<![CDATA[
+        
+            
+            This sample demonstrates notifications with custom content views.
+            
+        
+        ]]>
+    </string>
+    <string name="expanded">I\'m the expanded notification.\nCollapse me!</string>
+    <string name="collapsed">I\'m the collapsed notification.\nCreated at: %s</string>
+    <string name="show_notification">Show Notification</string>
+    <string name="custom_notification">I\'m a custom notification.</string>
+    <string name="intro_text">This sample demonstrates how a notification is created using the <b>NotificationCompatBuilder</b>         with a custom content view. The layout of the notification is defined as a
+        layout resource and inflated as a <b>RemoteViews</b> object.
+        \n\nOn API level 16 and above, a different layout is inflated and set as
+        the <i>big content view</i>, which is used when the notification is expanded.
+        \n\n<b>Use the button below to create the notification.
+        \n\nIf your device is running Jelly Bean or above, try expanding or collapsing
+        the notification to see the different layouts.</b></string>
+    <string name="collapsed_image">A single Android robot waving. Symbolises a collapsed
+        notification.</string>
+    <string name="expanded_image">Two Androids on top of each other. Symbolises an expanded
+        notification.</string>
+    <string name="custom_transition_test_intro">
+<![CDATA[
+        
+            
+            This sample demonstrates how to create and use a custom Transition.
+            
+        
+        ]]>
+    </string>
+    <string name="custom_choice_list_intro">
+<![CDATA[
+        
+            
+                This sample demonstrates how to create custom checkable layouts, for use with ListView\'s choiceMode
+                attribute.
+            
+        
+        ]]>
+    </string>
+    <string name="display_bitmap_intro">
+<![CDATA[
+        
+            
+            This is a sample application for the Android Training class
+            &quot;Displaying Bitmaps Efficiently&quot;
+            (http://developer.android.com/training/displaying-bitmaps/).\n\n
+
+            It demonstrates how to load large bitmaps efficiently off the main UI thread, caching
+            bitmaps (both in memory and on disk), managing bitmap memory and displaying bitmaps
+            in UI elements such as ViewPager and ListView/GridView.
+            
+        
+        ]]>
+    </string>
+    <string name="clear_cache_menu">Clear Caches</string>
+    <string name="clear_cache_complete_toast">Caches have been cleared</string>
+    <string name="imageview_description">Image Thumbnail</string>
+    <string name="no_network_connection_toast">No network connection found</string>
+    <string name="done_bar_intro">
+<![CDATA[
+        
+            
+                This sample demonstrates two alternative presentations of the
+                action bar that are well-suited for simple data entry scenarios.
+
+                In this presentation, a done bar replaces the action
+                bar entirely, providing two direct actions to persist or dismiss changes. This is
+                suitable for cases where no additional view details or actions are needed in the
+                action bar.
+            
+        
+        ]]>
+    </string>
+    <string name="done">Done</string>
+    <string name="donebaractivity_title">Done Bar</string>
+    <string name="donebaractivity_description">In this presentation, a done bar replaces the action bar entirely, providing
+            two direct actions to persist or dismiss changes. This is suitable for cases where no
+            additional view details or actions are needed in the action bar.</string>
+    <string name="donebuttonactivity_title">Done Button</string>
+    <string name="donebuttonactivity_description">In this presentation, a done button replaces the action bar\'s "Up" affordance
+            and app icon, while the cancel action is made available in the action overflow. This is
+            well-suited to scenarios where additional view details or
+            actions may be needed in the action bar.</string>
+    <string name="drawable_tinting_test_intro">
+<![CDATA[
+        
+            
+            Sample that shows applying tinting and color filters to Drawables both programmatically
+            and as Drawable resources in XML.
+            \n\nTinting is set on a nine-patch drawable through the "tint" and "tintMode" parameters.
+            A color state list is referenced as the tint color, which defines colors for different
+            states of a View (for example disabled/enabled, focused, pressed or selected).
+            \n\nProgrammatically, tinting is applied to a Drawable through its "setColorFilter" method,
+            with a reference to a color and a PorterDuff blend mode. The color and blend mode can be
+            changed from the UI to see the effect of different options.
+            
+        
+        ]]>
+    </string>
+    <string name="resource_tint_label">Button with tinting set by state color list as resource:</string>
+    <string name="resource_tint_button">Tinting set by StateDrawable</string>
+    <string name="prog_tint_label">View with tinting set programmatically:</string>
+    <string name="value_alpha">Alpha: %d\%</string>
+    <string name="value_red">Red: %d\%</string>
+    <string name="value_green">Green: %d\%</string>
+    <string name="value_blue">Blue: %d\%</string>
+    <string name="blend_mode_label">Blend Mode:</string>
+
+    <string-array name="blend_modes">
+        <item>Add</item>
+        <item>Clear</item>
+        <item>Darken</item>
+        <item>Destination (DST)</item>
+        <item>Destination atop (DST_ATOP)</item>
+        <item>Destination in (DST_IN)</item>
+        <item>Destination out (DST_OUT)</item>
+        <item>Destination over (DST_OVER)</item>
+        <item>Lighten</item>
+        <item>Multiply</item>
+        <item>Overlay</item>
+        <item>Screen</item>
+        <item>Source (SRC)</item>
+        <item>Source atop (SRC_ATOP)</item>
+        <item>Source in (SRC_IN)</item>
+        <item>Source out (SRC_OUT)</item>
+        <item>Source over (SRC_OVER)</item>
+        <item>XOR</item>
+    </string-array>
+
+    <string name="horizontal_paging_intro">
+<![CDATA[
+        
+            
+            This sample demonstrates how to implement horizontal paging between fragments in
+            applications that use ActionBar, using a ViewPager widget.
+            
+        
+        ]]>
+    </string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="sliding_tabs_basic_intro">
+<![CDATA[
+        
+            
+            A basic sample which shows how to use SlidingTabLayout to display a custom
+            ViewPager title strip which gives continuous feedback to the user when scrolling.
+            
+        
+        ]]>
+    </string>
+    <string name="title1">God of War Ascension</string>
+    <string name="title2">Assassin\'s Creed III</string>
+    <string name="title3">Hitman Absolution</string>
+    <string name="title4">Dishonored</string>
+    <string name="sliding_tabs_colors_intro">
+<![CDATA[
+        
+            
+            A more advanced sample which shows how to use SlidingTabLayout to display a custom
+            ViewPager title strip, with custom coloring for each tab.
+            
+        
+        ]]>
+    </string>
+    <string name="tab_stream">Stream</string>
+    <string name="tab_messages">Messages</string>
+    <string name="tab_notifications">Notifications</string>
+    <string name="tab_photos">Photos</string>
+    <string name="swipe_refresh_layout_basic_intro">
+<![CDATA[
+        
+            
+            A basic sample which shows how to use SwipeRefreshLayout to add the \'swipe-to-refresh\'
+            gesture to a View, enabling the ability to trigger a refresh from swiping down on the view.
+            In this sample the View which can be refreshed is a ListView.
+            
+        
+        ]]>
+    </string>
+    <string name="swipe_refresh_list_fragment_intro">
+<![CDATA[
+        
+            
+            A sample which shows how to use SwipeRefreshLayout within a ListFragment to add the
+            \'swipe-to-refresh\' gesture to a ListView, enabling the ability to trigger a refresh
+            from swiping down on that view. This is provided through the re-usable
+            SwipeRefreshListFragment class.
+            
+        
+        ]]>
+    </string>
+    <string name="menu_color_scheme">Color scheme</string>
+    <string name="menu_color_scheme_1">Scheme #1</string>
+    <string name="menu_color_scheme_2">Scheme #2</string>
+    <string name="menu_color_scheme_3">Scheme #3</string>
+    <string name="swipe_refresh_multiple_views_intro">
+<![CDATA[
+        
+            
+            A sample which shows how to use SwipeRefreshLayout to add the \'swipe-to-refresh\'
+            gesture to a layout with multiple children, enabling the ability to trigger a
+            refresh from swiping down on the visible view. In this sample, SwipeRefreshLayout
+            contains a scrollable GridView, along with a TextView empty view.
+            
+        
+        ]]>
+    </string>
+    <string name="menu_clear">Clear items</string>
+    <string name="empty_text">List is empty! Swipe down to refresh.</string>
+    <string name="text_linkify_intro">This sample illustrates how links can be added to a TextView.
+    \nThis can be done either automatically by setting the <i>autoLink</i> property
+    or explicitly.</string>
+    <string name="link_text_auto"><b>text_auto_linkify: Various kinds
+      of data that will be auto-linked.</b>       In this text are some things that are actionable.  For instance,
+      you can click on http://www.google.com and it will launch the
+      web browser.  You can click on google.com too.  If you
+      click on (415) 555-1212 it should dial the phone.  Or just write
+      foobar@example.com for an e-mail link.  If you have a URI like
+      http://www.example.com/lala/foobar@example.com you should get the
+      full link not the e-mail address.  Or you can put a location
+      like 1600 Amphitheatre Parkway, Mountain View, CA 94043.  To summarize:
+      https://www.google.com, or 650-253-0000, somebody@example.com,
+      or 9606 North MoPac Expressway, Suite 400, Austin, TX 78759.</string>
+    <string name="link_text_manual">
+<![CDATA[<b>text_html_resource:
+      Explicit links using &lt;a&gt; markup.</b>
+      This has markup for a <a href="http://www.google.com">link</a> specified
+      via an &lt;a&gt; tag.  Use a \"tel:\" URL
+      to <a href="tel:4155551212">dial a phone number</a>.]]>
+    </string>
+    <string name="text_switcher_intro">This sample illustrates the use of a <b>TextSwitcher</b> to display text.
+\n\n<b>Click the button</b> below to set new text in the TextSwitcher and observe the in and out
+ fade animations.</string>
+    <string name="next">Next</string>
+    <string name="card_view_test_intro">
+<![CDATA[
+        
+            
+            This sample demonstrates how to use CardView introduced in the support library for the
+            Android L preview.
+            
+        
+        ]]>
+    </string>
+    <string name="title_activity_card_view">CardViewActivity</string>
+    <string name="cardview_contents">This is a CardView widget. CardView widgets can have
+        shadows and rounded corners.
+        \n\nTo create a card with a shadow, use the <font fgcolor="#FFFFFFFF">android:elevation</font>         attribute.
+        \n\nTo set the corner radius in your layouts, use the <font fgcolor="#FFFFFFFF">card_view:cardCornerRadius</font> attribute.</string>
+    <string name="cardview_radius_seekbar_text">Radius</string>
+    <string name="cardview_elevation_seekbar_text">Elevation</string>
+    <string name="clipping_basic_intro">
+<![CDATA[
+        
+            
+            Basic sample to demonstrate clipping on a View.
+            
+        
+        ]]>
+    </string>
+
+    <string-array name="sample_texts">
+        <item>Lorem ipsum dolor sit amet, duo numquam nominavi consectetuer at.</item>
+        <item>Vivendo philosophia mea et. Duo te idque appetere.</item>
+        <item>De finibus bonorum et malorum.</item>
+    </string-array>
+
+    <string name="clip_button">Enabled outline clipping</string>
+    <string name="unclip_button">Disable outline clipping</string>
+    <string name="floating_action_button_test_intro">
+<![CDATA[
+        
+            
+            This sample shows the two sizes of Floating Action Buttons and how to interact with
+            them.
+            
+        
+        ]]>
+    </string>
+    <string name="navigation_drawer_intro">
+<![CDATA[
+        
+            
+             This example illustrates a common usage of the DrawerLayout widget in the Android
+             support library.
+            
+        
+        ]]>
+    </string>
+
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="recycler_view_test_intro">
+<![CDATA[
+        
+            
+                Demonstration of using RecyclerView with a LinearLayoutManager and GridLayoutManager
+                to create a vertical list. Tap \"SHOW LOG\" to view elements as they are bound to
+                their ViewHolder. The log also displays elements that you tap.
+            
+        
+        ]]>
+    </string>
+    <string name="element_text">Element</string>
+    <string name="grid_layout_manager">Grid Layout Manager</string>
+    <string name="linear_layout_manager">Linear Layout Manager</string>
+
+</resources>
